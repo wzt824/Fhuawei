@@ -1,0 +1,38 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*header部分*/
+.header_cen{
+    width:1200px;
+    margin: 0 auto;
+}
+.header_left{
+    float: left;
+    ul li{
+        float: left;
+        color:#a4a4a4 ;
+        a{
+            color:#a4a4a4 ;
+            font-size: 12px;
+        }
+    }
+}
+.header_right{
+    float: right;
+    ul li{
+        float: left;
+        color:#a4a4a4 ;
+        margin-right: 15px;
+        a{
+            color:#a4a4a4 ;
+            font-size: 12px;
+        }
+    }
+}
